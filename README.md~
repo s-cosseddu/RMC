@@ -1,9 +1,0 @@
-RMD
-=====
-Version     : 0.0.0.1	
-General function to analyse MD simulations. 
-
-
-Description : 
------------
-The package provide useful functions and wrappers to analyse MD simulations. 

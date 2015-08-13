@@ -1,3 +1,8 @@
+#######
+# emacs
+*#*
+auto
+*~
 .Rproj.user
 .Rhistory
 .RData
