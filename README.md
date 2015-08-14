@@ -40,7 +40,7 @@ Atom coordinates to data frame
 
 ____________
 
-# COPYRIGHT #
+## COPYRIGHT ##
 
 Copyright © 2013-2015
 Salvatore M Cosseddu, University of Warwick and VU University Amsterdam					  
