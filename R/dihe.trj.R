@@ -1,10 +1,10 @@
-#' Dihedral angles from Molecular Dynamics Trajectories in Matrix
+#' Dihedral angles from Molecular Dynamics in Matrix
 #'
 #' Wrap for torsion.xyz from bio3d package to compute dihedral angles and return them in a convinient matrix format
-#' @param pdb,
-#' @param trj,
-#' @param dihesel,
-#' @param sub
+#' @param pdb structure object from read.pdb,
+#' @param trj trajector object form read.dcd,
+#' @param dihesel selection string for atom.select(),
+#' @param sub deprecate (to check)
 #' @export
 #' @examples
 #' pdb=protein.pdb

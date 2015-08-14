@@ -1,4 +1,4 @@
-#' Atom distances from Molecular Dynamics Trajectories7
+#' Atom distances from Molecular Dynamics Trajectories
 #'
 #' Take trajectory and pdb objects, 2 selection and return time series
 #' of distances between the atom in selection1 and selection2 according
@@ -9,11 +9,11 @@
 #' @param sel_string1 Second selection of atom for bio3d function atom.select()
 #' @param pdb2 pdb of a reference (optional, default NULL)
 #' @param trj2 dcd of the reference (optional, default NULL)
-#' @param pdb2sel_string1=sel_string1,
-#' @param pdb2sel_string2=sel_string2,
+#' @param pdb2sel_string1=sel_string1
+#' @param pdb2sel_string2=sel_string2
 #' @param ref deprecated to delete
-#' @param sub when working on multible subunits, list of subunit, default c("A","B","C","D"),
-#' @param subseqB sequence of subunits of the second atomselection, default c(1:3,4:6,7:9,10:12),
+#' @param sub when working on multible subunits, list of subunit, default c("A","B","C","D")
+#' @param subseqB sequence of subunits of the second atomselection, default c(1:3,4:6,7:9,10:12)
 #' @param stride time interval for ts()
 #' @param start starting time for ts()
 #' @param overall All the data are collected as a single vector, to get an overall description of the dataset

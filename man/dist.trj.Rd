@@ -2,7 +2,7 @@
 % Please edit documentation in R/dist.trj.R
 \name{dist.trj}
 \alias{dist.trj}
-\title{Atom distances from Molecular Dynamics Trajectories7}
+\title{Atom distances from Molecular Dynamics Trajectories}
 \usage{
 dist.trj(pdb, trj, sel_string1, sel_string2, pdb2 = NULL, trj2 = NULL,
   pdb2sel_string1 = sel_string1, pdb2sel_string2 = sel_string2,
@@ -22,9 +22,9 @@ dist.trj(pdb, trj, sel_string1, sel_string2, pdb2 = NULL, trj2 = NULL,
 
 \item{ref}{deprecated to delete}
 
-\item{sub}{when working on multible subunits, list of subunit, default c("A","B","C","D"),}
+\item{sub}{when working on multible subunits, list of subunit, default c("A","B","C","D")}
 
-\item{subseqB}{sequence of subunits of the second atomselection, default c(1:3,4:6,7:9,10:12),}
+\item{subseqB}{sequence of subunits of the second atomselection, default c(1:3,4:6,7:9,10:12)}
 
 \item{stride}{time interval for ts()}
 
@@ -34,9 +34,9 @@ dist.trj(pdb, trj, sel_string1, sel_string2, pdb2 = NULL, trj2 = NULL,
 
 \item{sel_string1}{Second selection of atom for bio3d function atom.select()}
 
-\item{pdb2sel_string1=sel_string1,}{}
+\item{pdb2sel_string1=sel_string1}{}
 
-\item{pdb2sel_string2=sel_string2,}{}
+\item{pdb2sel_string2=sel_string2}{}
 }
 \description{
 Take trajectory and pdb objects, 2 selection and return time series

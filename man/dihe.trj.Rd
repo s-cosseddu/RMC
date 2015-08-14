@@ -2,18 +2,18 @@
 % Please edit documentation in R/dihe.trj.R
 \name{dihe.trj}
 \alias{dihe.trj}
-\title{Dihedral angles from Molecular Dynamics Trajectories in Matrix}
+\title{Dihedral angles from Molecular Dynamics in Matrix}
 \usage{
 dihe.trj(pdb, trj, dihesel, sub)
 }
 \arguments{
-\item{pdb,}{}
+\item{pdb}{structure object from read.pdb,}
 
-\item{trj,}{}
+\item{trj}{trajector object form read.dcd,}
 
-\item{dihesel,}{}
+\item{dihesel}{selection string for atom.select(),}
 
-\item{sub}{}
+\item{sub}{deprecate (to check)}
 }
 \description{
 Wrap for torsion.xyz from bio3d package to compute dihedral angles and return them in a convinient matrix format
