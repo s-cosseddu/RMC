@@ -13,7 +13,7 @@ The package provides useful R functions and wrappers to analyse MD simulations.
 
 ### Functions ###
 
-Please, refer to the documentation of each function by typing ?<functionName> 
+Please, refer to the documentation of each function by typing ?\<functionName\> 
 
 - coord.data.frame.R  
 - dihe.trj.R          
